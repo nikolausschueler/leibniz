@@ -1,5 +1,7 @@
 <html>
   <body>
+    <p id="counter"/>
+
     <script language="JavaScript">
       x = 1;
       series = 0;
@@ -12,8 +14,8 @@
         toggle *= -1;
         x += 2;
         pi = 4 * series;
-        document.write(pi);
-        document.write("<br>");
+        counter = document.getElementById('counter');
+        counter.textContent = pi;
         i++;
         if(i < max) {
           setTimeout(calc, 100);
