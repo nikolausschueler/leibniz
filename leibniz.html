@@ -1,5 +1,7 @@
 <html>
   <body>
+
+    <!-- CSS styles. -->
     <style>
       #counter {
         font-size: 300%;
@@ -8,6 +10,7 @@
 
     <p id="counter"/>
 
+    <!-- Scripting. -->
     <script language="JavaScript">
       x = 1;
       series = 0;
@@ -23,6 +26,8 @@
         counter = document.getElementById('counter');
         counter.textContent = pi;
         i++;
+
+        // This is the equivalent of sleep() in Python, Shell etc.
         if(i < max) {
           setTimeout(calc, 100);
         }
