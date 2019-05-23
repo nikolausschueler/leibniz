@@ -16,3 +16,6 @@ No installation needed. Just open the page _index.html_ in your browser.
 
 Note that this only works from a clone of the repo. If you click the page on
 GitHub, you get GitHub's display of the page, not the page itself.
+
+You can see the app in action in this YouTube video:
+https://www.youtube.com/watch?v=FewZgykfX6w.
